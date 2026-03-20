@@ -13,7 +13,7 @@ uint8_t  baseSpeed     = 140;   // cruise speed on straights
 uint8_t  minSpeed      = 90;    // never go below this while moving
 
 // Steering proportional gain (maps sensor error to differential PWM)
-float    Kp_steer      = 0.35;  // increase for tighter response (risk more jitter)
+float    Kp_steer      = 0.36;  // increase for tighter response (risk more jitter)
 
 // Corner management
 int      cornerThresh  = 80;    // abs(error) above this => corner/instability
